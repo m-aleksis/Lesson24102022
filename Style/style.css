@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 100px;
+    background-color: #E5E5E5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.diya,
+.flag,
+.flag-round{
+width: 512px;
+height: 512px;
+}
+.diya{
+    background-color: black;
+    padding: 129px 0 109px 0;
+    position: relative;
+    top: 100px;
+    right: 441px;
+}
+.diya-flag{
+    padding: 32px 109px;
+}
+.flag{
+    border-top: 258px solid blue;
+    background-color: yellow;
+    position: absolute;
+    z-index: 2;
+}
+.flag-dekor{
+    padding: 138px 52px;
+    position: relative;
+    top: -250px;
+}
+.flag-round{
+    background-color: white;
+    border-bottom: 2px solid  blue;
+    border-top: 2px solid  blue;
+    position: relative;
+    top: 417px;
+    left: 423px;
+}
+.flag-blue{
+    background-color:yellow;
+    border-radius: 300px;
+    width: 444px;
+    height: 444px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+.flag-blue img{
+    width: 444px;
+    height: 233.5px;
+    border-top-left-radius: 350px;
+    border-top-right-radius: 350px;
+}
+.flag-dekor-round{
+    position: relative;
+    top: -210px;
+}
